@@ -1,0 +1,49 @@
+.block1{
+  border: 3px solid;
+  width: 300px;
+}
+body{
+  height: 100vh;
+  width: 100%;
+}
+div{
+  width: 100%;
+}
+section{
+  height: 50px;
+  width: 50%;
+}
+.sub{
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  float: left;
+}
+.part1{
+ width: 15%;
+ position: relative;
+
+}
+.part2{
+  width: 85%;
+}
+.pic{
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  left: 40%;
+}
+.block3 {
+  height: 25px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.block3 li{
+  display: inline;
+  align-items: center;
+  margin: auto;
+}
+.block3 li a{
+  padding: 2px;
+  text-decoration: none;
